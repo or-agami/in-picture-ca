@@ -1,0 +1,93 @@
+* {
+    background-color: #3b3b3b;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #f7cd55;
+    text-shadow: 0 0 10px white;
+}
+
+.game-window {
+    display: flex;
+    width: 800px;
+    margin: auto;
+    box-shadow: 0 0 20px white;
+}
+
+.game-window .background-image {
+    display: inline;
+    width: 800px;
+}
+
+.start-button {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    color: white;
+    font-size: 15px;
+    border: 0px;
+    border-radius: 9px;
+    margin-top: 480px;
+    margin-left: 540px;
+}
+
+.quiz-image-background {
+    position: absolute;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 440px;
+    border: none;
+    border-radius: 20px;
+}
+
+.quiz-image-background p {
+    background-color: white;
+    width: 240px;
+    font-size: x-large;
+}
+
+.quiz-image {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 270px;
+    max-height: 270px;
+}
+
+.quiz-image img {
+    max-width: 270px;
+    max-height: 270px;
+}
+
+.buttons {
+    position: absolute;
+    display: flex;
+    margin-top: 400px;
+    margin-left: 400px;
+    height: 40px;
+    width: 355px;
+    background-color: #555;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 20px;
+}
+
+.buttons button {
+    margin: 0 auto;
+    width: fit-content;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    /* background-color: #47555e; */
+    border: 2px solid white;
+    border-radius: 9px;
+}
+
+button:hover {
+    cursor: pointer;
+}
